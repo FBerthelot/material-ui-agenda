@@ -1,0 +1,42 @@
+{
+  "name": "material-ui-agenda",
+  "version": "1.0.0-alpha.1",
+  "description": "React Agenda component that implement Google's material Design. Agenda use material-ui.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "npm run lint && echo 'write test u'",
+    "lint": "eslint . --cache",
+    "start": "cd doc && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBerthelot/material-ui-agenda.git"
+  },
+  "keywords": [
+    "react",
+    "agenda",
+    "react-component",
+    "material design",
+    "material-ui"
+  ],
+  "author": "FBerthelot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FBerthelot/material-ui-agenda/issues"
+  },
+  "homepage": "https://github.com/FBerthelot/material-ui-agenda#readme",
+  "dependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-spellcheck": "0.0.8"
+  }
+}
