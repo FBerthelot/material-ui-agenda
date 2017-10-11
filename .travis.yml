@@ -13,6 +13,7 @@ script:
 - npm i
 - npm run build
 - npm test
+- cd ..
 
 deploy:
   - provider: pages
