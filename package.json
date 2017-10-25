@@ -11,7 +11,8 @@
     "tdd": "BABEL_ENV=testing jest --watch",
     "start": "webpack --watch --config config/webpack.config.js",
     "start:doc": "cd doc && npm start",
-    "build:umd": "webpack --config config/webpack.config.js && cd doc && npm build",
+    "build": "npm run build:es && npm run build:umd && cd doc && npm build",
+    "build:umd": "webpack --config config/webpack.config.js",
     "build:es": "BABEL_ENV=es babel ./src --ignore *.spec.js --out-dir ./build/es"
   },
   "repository": {

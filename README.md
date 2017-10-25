@@ -16,7 +16,7 @@ Here is a quick example to get you started, it's all you need:
 ```jsx
 import React from 'react';
 import { render } from 'react-dom';
-import { Agenda } from 'material-ui-agenda';
+import Agenda from 'material-ui-agenda';
 
 function App() {
   return <Agenda />;
@@ -27,7 +27,7 @@ render(<App />, document.querySelector('#app'));
 
 ## Documentation
 
-Check out our [documentation website](https://material-ui-next.com/).
+Check out the [documentation website](https://material-ui-next.com/).
 
 ## Contributing
 
