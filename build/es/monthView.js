@@ -10,7 +10,6 @@ var MonthView = function MonthView(_ref) {
       locale = _ref.locale;
 
   var weekArray = getWeekArray(displayDate, firstDayOfWeek);
-  console.log('toto', weekArray);
 
   return React.createElement(
     'div',

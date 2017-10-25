@@ -38,6 +38,18 @@ I greatly appreciate any contribution you make. :)
 Recently Updated?
 Please read the [changelog](https://github.com/FBerthelot/material-ui-agenda/releases).
 
+## Roadmap
+
+I will add these features in the future :
+- week view
+- day view
+- year view
+- handle touch (like slider)
+- drag and drop event
+- export to ical
+- add possibility to import ical agenda
+- add possibility to import google calendar
+
 ## License
 
 This project is licensed under the terms of the [MIT license](https://github.com/callemall/material-ui/blob/v1-beta/LICENSE)

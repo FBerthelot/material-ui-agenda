@@ -5,6 +5,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 import { getDaysInMonth } from 'material-ui/DatePicker/dateUtils';
 
 export function getWeekArray(d, firstDayOfWeek) {
+  if (!d || !(d instanceof Date) || firstDayOfWeek !== 0 && !firstDayOfWeek || firstDayOfWeek > 6) {
+    throw new Error('getWeekArray should be call with (AValidDate, numberOfFirstDayWeek)');
+  }
   var daysInMonth = getDaysInMonth(d);
 
   var dayArray = [].concat(_toConsumableArray(Array(daysInMonth))).map(function (Ø, i) {
