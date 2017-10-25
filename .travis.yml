@@ -8,12 +8,11 @@ cache:
   - doc/node_modules
 
 script:
-- npm run test
+- npm test
 - cd doc
 - npm i
-- npm run build
-- npm test
 - cd ..
+- npm run build
 
 deploy:
   - provider: pages

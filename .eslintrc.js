@@ -8,7 +8,7 @@ module.exports = {
     es6: true,
     browser: true,
     node: true,
-    mocha: true,
+    jest: true
   },
   extends: ['airbnb', 'plugin:import/recommended'],
   parser: 'babel-eslint',
@@ -16,7 +16,7 @@ module.exports = {
     ecmaVersion: 7,
     sourceType: 'module',
   },
-  plugins: ['babel', 'import', 'jsx-a11y', 'mocha'],
+  plugins: ['babel', 'import', 'jsx-a11y'],
   settings: {
     'import/resolver': {
       webpack: {
@@ -36,7 +36,7 @@ module.exports = {
     'consistent-this': ['error', 'self'],
     'max-len': [
       'error',
-      100,
+      150,
       2,
       {
         ignoreUrls: true,
@@ -93,11 +93,7 @@ module.exports = {
     ],
     'react/default-props-match-prop-types': 'off', // Buggy
     'react/jsx-curly-brace-presence': 'off', // Buggy
-
-    'mocha/handle-done-callback': 'error',
-    'mocha/no-exclusive-tests': 'error',
-    'mocha/no-global-tests': 'error',
-    'mocha/no-pending-tests': 'error',
-    'mocha/no-skipped-tests': 'error',
+    'react/jsx-no-bind': 'off',
+    'react/no-array-index-key': 'off'
   },
 };

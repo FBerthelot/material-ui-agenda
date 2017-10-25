@@ -1,0 +1,41 @@
+{
+  "presets": [
+    "stage-1",
+    "react",
+    [
+      "env",
+      {
+        "targets": {
+          "ie": 11,
+          "edge": 14,
+          "firefox": 45,
+          "chrome": 49,
+          "safari": 10,
+          "node": "6.11"
+        },
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-object-assign"
+  ],
+  "env": {
+    "testing": {
+      "presets": [[
+        "env",
+        {
+          "targets": {
+            "ie": 11,
+            "edge": 14,
+            "firefox": 45,
+            "chrome": 49,
+            "safari": 10,
+            "node": "6.11"
+          },
+          "modules": "commonjs"
+        }
+      ]]
+    }
+  }
+}
